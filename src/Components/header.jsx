@@ -1,93 +1,123 @@
-import React, { Component } from 'react';
-import Avi from "../img/profile-img.jpeg"
-// import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.js';
-// import 'bootstrap-icons'
-// import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.js';
+import React, { useEffect,useRef, useState } from 'react';
+import Avi from "../img/IMG_03867.jpg"
 
 
 
 
-class Header extends Component {
-    
-    // document.addEventListener('click', function (e) {
-    //     if (e.target.classList.contains('mobile-nav-toggle')) {
-    //         toggleClasses(document.querySelector('body'), e.target);
-    //     }
-    // });
-   
-    // const select = (el, all = false) => {
-    //     el = el.trim()
-    //     if (all) {
-    //         return [...document.querySelectorAll(el)]
-    //     } else {
-    //         return document.querySelector(el)
-    //     }
-    // }
-    // const on = (type, el, listener, all = false) => {
-    //     let selectEl = select(el, all)
-    //     if (selectEl) {
-    //         if (all) {
-    //             selectEl.forEach(e => e.addEventListener(type, listener))
-    //         } else {
-    //             selectEl.addEventListener(type, listener)
-    //         }
-    //     }
-    // }
-    // on('click', '.mobile-nav-toggle', function (e) {
-    //     select('body').classList.toggle('mobile-nav-active')
-    //     this.classList.toggle('bi-list')
-    //     this.classList.toggle('bi-x')
-    // })
-    
-    
-    componentDidMount() {
-       
-        function toggleClasses(element1, element2) {
-            element1.classList.toggle('mobile-nav-active');
-            element2.classList.toggle('bi-list');
-            element2.classList.toggle('bi-x');
-        }
-        toggleClasses = (element1, element2) => {
-            toggleClasses(element1, element2);
-        }
-        this.refs.myElement.addEventListener('click', (e) => {
-            if (e.target.classList.contains('mobile-nav-toggle')) {
-                this.toggleClasses(document.querySelector('body'), e.target);
-            }
-        });
-    }
-    render() {
-        return <div><i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-            <header id="header">
-                <div className="d-flex flex-column">
-
-                    <div className="profile">
-                        <img src={Avi} alt="" className="img-fluid rounded-circle" />
-                        <h1 className="text-light"><a href="index.html">Ridwan Alabi</a></h1>
-                        <div class="social-links mt-3 text-center">
-                            <a href="#git" class="github"><i class="bi bi-github"></i></a>
-                            <a href="#linked" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                            <a href="#whatsapp" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
-                            <a href="#mail" class="mail"><i class="bi bi-envelope"></i></a>
-                        </div>
-                    </div>
-
-                    <nav id="navbar" className="nav-menu navbar">
-                        <ul>
-                            <li><a href="#hero" className="nav-link scrollto active"><i class="fa-light bi-house"></i> <span>Home</span></a></li>
-                            <li><a href="#about" className="nav-link scrollto"><i class="bx bi-person-square"></i> <span>About</span></a></li>
-                            <li><a href="#resume" className="nav-link scrollto"><i className="bx bi-file"></i> <span>Resume</span></a></li>
-                            <li><a href="#portfolio" className="nav-link scrollto"><i class="bx bi-file-earmark-text"></i> <span>Portfolio</span></a></li>
-                            {/* <li><a href="#services" className="nav-link scrollto"><i className="bx bx-server"></i> <span>Services</span></a></li> */}
-                            <li><a href="#contact" className="nav-link scrollto"><i className="bx bi-envelope"></i> <span>Contact</span></a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header></div>;
-    }
-
+function toggleClasses(element1, element2) {
+    element1.classList.toggle('mobile-nav-active');
+    element2.classList.toggle('bi-list');
+    element2.classList.toggle('bi-x');
 }
 
+export default function Header() {
+    const myElementRef = useRef(null);
+    const [activeLink, setActiveLink] = useState(null);
+    
+
+    useEffect(() => {
+        myElementRef.current.addEventListener('click', (e) => {
+            if (e.target.classList.contains('mobile-nav-toggle')) {
+                toggleClasses(document.querySelector('body'), e.target);
+            }
+        });
+        const handleScroll = () => {
+            let position = window.scrollY + 200;
+            let activeSection = null;
+            
+            setActiveLink(activeSection);
+
+            const navbarlinksArray = Array.from(navbarlinks.current);
+            navbarlinksArray.forEach(navbarlink => {
+                if (!navbarlink.hash) return;
+                let section = document.querySelector(navbarlink.hash);
+                if (!section) return;
+                if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+                    activeSection = navbarlink.hash;
+                }
+            });
+            setActiveLink(activeSection);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+
+    }, []);
+    const navbarlinks = useRef([]);
+
+
+
+    return <div ref={myElementRef}>
+        <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+        <header id="header">
+            <div className="d-flex flex-column">
+
+                <div className="profile">
+                    <img src={Avi} alt="Ridwan Alabi" className="img-fluid rounded-circle" />
+                    <h1 className="text-light"><a href="index.html">Ridwan Alabi</a></h1>
+                    <div className="social-links mt-3 text-center">
+                        <a href="https://github.com/Ridalord" title='Github' className="github"><i className="bi bi-github"></i></a>
+                        <a href="https://linkedin.com/in/ridwan-alabi-069317246/" title='Linkedin' className="linkedin"><i className="bi bi-linkedin"></i></a>
+                        <a href="https://wa.link/cl0b01" title='Whatsapp' className="whatsapp"><i className="bi bi-whatsapp"></i></a>
+                        <a href="mailto:ridhwan.alabi@gmail.com" title='Email' className="mail"><i className="bi bi-envelope"></i></a>
+                    </div>
+                </div>
+                <nav id="navbar" className="nav-menu navbar">
+                    <ul>
+                        <li><a
+                            href="#hero"
+                            ref={el => (navbarlinks.current[0] = el)}
+                            className={activeLink === "#hero" ? "active" : ""}
+                            onClick={() => {
+                                setActiveLink("#hero");
+                                toggleClasses(document.querySelector('body'), document.querySelector('.mobile-nav-toggle'));
+                            }}
+                        >
+                            <i className="bx bi-house"></i> <span>Home</span></a></li>
+                        <li><a
+                            href="#about"
+                            ref={el => (navbarlinks.current[1] = el)}
+                            className={activeLink === "#about" ? "active" : ""}
+                            onClick={() => {
+                                setActiveLink("#about");
+                                toggleClasses(document.querySelector('body'), document.querySelector('.mobile-nav-toggle'));
+                            }}
+                        ><i className="bx bi-person"></i> <span>About</span></a></li>
+                        <li><a
+                            href="#resume"
+                            ref={el => (navbarlinks.current[2] = el)}
+                            className={activeLink === "#resume" ? "active" : ""}
+                            onClick={() => {
+                                setActiveLink("#resume");
+                                toggleClasses(document.querySelector('body'), document.querySelector('.mobile-nav-toggle'));
+                            }}
+                        ><i className="bx bi-file-earmark"></i> <span>Resume</span></a></li>
+                        <li><a
+                            href="#portfolio"
+                            ref={el => (navbarlinks.current[3] = el)}
+                            className={activeLink === "#portfolio" ? "active" : ""}
+                            onClick={() => {
+                                setActiveLink("#portfolio");
+                                toggleClasses(document.querySelector('body'), document.querySelector('.mobile-nav-toggle'));
+                            }}
+                        ><i className="bx bi-journal-text"></i> <span>Portfolio</span></a></li>
+                        <li><a
+                            href="#contact"
+                            ref={el => (navbarlinks.current[4] = el)}
+                            className={activeLink === "#contact" ? "active" : ""}
+                            onClick={() => {
+                                setActiveLink("#contact");
+                                toggleClasses(document.querySelector('body'), document.querySelector('.mobile-nav-toggle'));
+                            }}
+                        ><i className="bx bi-envelope"></i> <span>Contact</span></a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header></div>;
+
+}

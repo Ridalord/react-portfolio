@@ -10,11 +10,11 @@ import React from "react"
 export default function Footer() {
     return (
         <footer id="footer">
-            <div class="container">
-                <div class="copyright">
+            <div className="container">
+                {/* <div className="copyright">
                     &copy; Copyright <strong><span>iPortfolio</span></strong>
-                </div>
-                <div class="credits">
+                </div> */}
+                <div className="credits">
                     Designed by Ridalord
                 </div>
             </div>

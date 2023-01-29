@@ -1,18 +1,17 @@
 import React from "react";
 import Typed from "react-typed"
-// import Typed from "typed.js";
-import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.js';
+// import { FadeIn } from 'react-fade-in';
+import FadeIn from 'react-fade-in'
 
 
 
 
 export default function Hero() {
-    
+
     return (
         <>
             <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
-                <div className="hero-container" data-aos="fade-in">
+                <FadeIn className="hero-container" duration={2000} direction= "right">
                     <h1>Ridwan Alabi</h1>
                     <p>I'm a <Typed
                         strings={[
@@ -23,7 +22,7 @@ export default function Hero() {
                         backSpeed={50}
                         loop >
                     </Typed></p>
-                </div>
+                </FadeIn>
             </section>
         </>
     )
