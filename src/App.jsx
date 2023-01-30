@@ -37,14 +37,11 @@ export default function App() {
     }
 
     return (
-        <Router>
+        <>
             <Header />
-            <Switch>
-                <Route path="/" exact element={<Home />} />
-                <Route path="/details" exact element={<Details />} />
-            </Switch>
+            <Home /> 
             <Footer/>
             <a href="#hero" details="Back to top" className="back-to-top d-flex align-items-center justify-content-center"><img src="https://img.icons8.com/fluency/48/null/up.png" alt="Go to top" /></a>
-        </Router>
+        </>
     )
 }
