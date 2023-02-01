@@ -13,7 +13,7 @@ export default function Resume() {
                     <div className="section-title">
                         <h2>Resume</h2>
                         <p>I like to study new things. Being knowledgeable about software development or any subject is an ongoing process,and I'm
-                            always proactive about seeking new opportunities to develop and grow in my role. Those opportunitiescould be in the form
+                            always proactive about seeking new opportunities to develop and grow in my role. Those opportunities could be in the form
                             of training, a conference, listening to a speaker, or taking on a new project, but the motivationis to increase my
                             knowledge of the field. Eager to collaborate with customers to find optimal solutions. Carefullycustomizes each product
                             to user needs and budgets. Provides reliably actionable code and software assets forcustomers and internal data

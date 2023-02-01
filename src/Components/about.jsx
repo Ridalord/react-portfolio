@@ -58,7 +58,7 @@ export default function About() {
                             <div className="row">
                                 <div className="col-lg-6">
                                     <ul>
-                                        <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>22 May 1998</span></li>
+                                        <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>May 22nd</span></li>
                                         <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+234 813 2246 772</span></li>
                                         <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Lagos, Nigeria</span></li>
                                     </ul>

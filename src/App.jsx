@@ -1,12 +1,12 @@
 import React from "react"; 
-import { BrowserRouter as Router, Routes as Switch, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes as Switch, Route } from "react-router-dom";
 import Header from "./Components/header";
 import Home from "./Components/home";
 import Footer from "./Components/footer";
 import 'bootstrap/dist/css/bootstrap.css';
 
 import "./style.css"
-import Details from "./Components/folioDetails";
+// import Details from "./Components/folioDetails";
 
 
 

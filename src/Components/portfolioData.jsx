@@ -21,7 +21,7 @@ export default [
         id: 4,
         name: "React Portfolio",
         imgUrl: "./img/reactfolio.PNG",
-        link: "https://ridalord.github.io/myBuisnesssId",
+        link: "https://ridalord.github.io/myBuisnessId",
     },
     {
         id: 5,
