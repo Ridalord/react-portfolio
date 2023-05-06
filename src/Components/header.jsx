@@ -1,5 +1,5 @@
 import React, { useEffect,useRef, useState } from 'react';
-import Avi from "../img/IMG_03867.jpg"
+// import Avi from "../img/IMG_03867.jpg"
 
 
 
@@ -57,7 +57,7 @@ export default function Header() {
             <div className="d-flex flex-column">
 
                 <div className="profile">
-                    <img src={Avi} alt="Ridwan Alabi" className="img-fluid rounded-circle" />
+                    <img src="https://i.ibb.co/gTkpR3h/favicon.jpg" alt="Ridwan Alabi" className="img-fluid rounded-circle" />
                     <h1 className="text-light"><a href="index.html">Ridwan Alabi</a></h1>
                     <div className="social-links mt-3 text-center">
                         <a href="https://github.com/Ridalord" title='Github' className="github"><i className="bi bi-github"></i></a>

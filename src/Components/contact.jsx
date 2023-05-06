@@ -1,82 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 
 
 
 export default function Contact() {
-    const formsRef = useRef(null);
 
-    useEffect(() => {
-        const forms = formsRef.current;
-        const script = document.createElement('script');
-        script.src = 'https://www.google.com/recaptcha/api.js';
-        script.async = true;
-        script.defer = true;
-        document.body.appendChild(script);
-        function displayError(thisForm, error) {
-            thisForm.querySelector('.loading').classList.remove('d-block');
-            thisForm.querySelector('.error-message').innerHTML = error;
-            thisForm.querySelector('.error-message').classList.add('d-block');
-        }
-        function php_email_form_submit(thisForm, action, formData) {
-            fetch(action, {
-                method: 'POST',
-                body: formData,
-                headers: { 'X-Requested-With': 'XMLHttpRequest' }
-            })
-                .then(response => {
-                    if (response.ok) {
-                        return response.text()
-                    } else {
-                        throw new Error(`${response.status} ${response.statusText} ${response.url}`);
-                    }
-                })
-                .then(data => {
-                    thisForm.querySelector('.loading').classList.remove('d-block');
-                    if (data.trim() === 'OK') {
-                        thisForm.querySelector('.sent-message').classList.add('d-block');
-                        thisForm.reset();
-                    } else {
-                        throw new Error(data ? data : 'Form submission failed and no error message returned from: ' + action);
-                    }
-                })
-                .catch((error) => {
-                    displayError(thisForm, error);
-                });
-        }
-
-        if (!forms) {
-            return;
-        }
-
-        forms.forEach(function (e) {
-            e.addEventListener('submit', function (event) {
-                event.preventDefault();
-
-                let thisForm = this;
-
-                let action = thisForm.getAttribute('action');
-
-                if (!action) {
-                    displayError(thisForm, 'The form action property is not set!');
-                    return;
-                }
-                thisForm.querySelector('.loading').classList.add('d-block');
-                thisForm.querySelector('.error-message').classList.remove('d-block');
-                thisForm.querySelector('.sent-message').classList.remove('d-block');
-
-                let formData = new FormData(thisForm);
-
-                php_email_form_submit(thisForm, action, formData);
-            });
-        });
-
-        return () => {
-            // Remove the event listener when the component unmounts
-            forms.forEach(function (e) {
-                e.removeEventListener('submit', function () { });
-            });
-        };
-    }, []);
+    
     return (
         <>
             <section id="contact" className="contact">
@@ -115,7 +43,7 @@ export default function Contact() {
                         </div>
 
                         <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                            <form action="./forms/contact.php" method="post" className="php-email-form">
+                            <form action="https://formspree.io/f/mknayber" method="post" className="php-email-form">
                                 <div className="row">
                                     <div className="form-group col-md-6">
                                         <label htmlFor="name">Your Name</label>

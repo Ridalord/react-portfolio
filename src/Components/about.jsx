@@ -1,5 +1,5 @@
 import React from "react";
-import Avi from "../img/profile-img1.jpeg"
+// import Avi from "../img/profile-img1.jpeg"
 import FadeIn from 'react-fade-in'
 
 
@@ -45,7 +45,7 @@ export default function About() {
                     <div className="row">
                         
                         <FadeIn direction="right"  className="col-lg-4" >
-                            <img src={Avi} className="img-fluid shadow" alt="" />
+                            <img src="https://i.ibb.co/jZ79tgM/profile-img1.jpg" className="img-fluid shadow" alt="Ridwan Alabi" />
                         </FadeIn>
                     
                         <FadeIn direction="left" className="col-lg-8 pt-4 pt-lg-0 content">

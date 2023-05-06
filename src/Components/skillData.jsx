@@ -1,4 +1,4 @@
-export default [
+const skillData = [
     {
         id: 1,
         name: "HTML",
@@ -20,3 +20,5 @@ export default [
         width: 75,
     }
 ]
+
+export default skillData;

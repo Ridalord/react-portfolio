@@ -1,8 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-import './style.css'
+import { createRoot } from 'react-dom/client';
+import App from './App';
+import './style.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
-
-
-ReactDOM.render(<App />, document.getElementById("root"))
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<App tab="home" />);
