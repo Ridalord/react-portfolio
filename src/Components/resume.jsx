@@ -15,7 +15,7 @@ export default function Resume() {
                         <p>I like to study new things. Being knowledgeable about software development or any subject is an ongoing process,and I'm
                             always proactive about seeking new opportunities to develop and grow in my role. Those opportunities could be in the form
                             of training, a conference, listening to a speaker, or taking on a new project, but the motivationis to increase my
-                            knowledge of the field. Eager to collaborate with customers to find optimal solutions. Carefullycustomizes each product
+                            knowledge of the field. Eager to collaborate with customers to find optimal solutions carefully customizing each product
                             to user needs and budgets. Provides reliably actionable code and software assets forcustomers and internal data
                             libraries.</p>
                     </div>
@@ -45,30 +45,6 @@ export default function Resume() {
                         <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                             <h3 className="resume-title">Professional Experience</h3>
                             <div className="resume-item">
-                                <h4>Engineer Intern</h4>
-                                <h5>08/2019 - 12/2019</h5>
-                                <p><em>Joe-Akins Computers Technologies Limited, Surulere, Lagos </em></p>
-                                <ul>
-                                    <li>Researched and reviewed information in support of daily objectives</li>
-                                    <li>Analyzed system faults and worked with the technical staff to develop solutions. </li>
-                                    <li>Due to my hands-on support, the time of repair and installation of systems were optimized.</li>
-                                    <li>Assisted with repairs by applying strong analytical skills and studies.</li>
-                                    <li>Connected with the clients, communicating to the best of their understanding.</li>
-                                    <li>Communicated effectively with faculty and staff and accepted critiques and suggestions for areas of improvement.</li>
-                                </ul>
-                            </div>
-                            <div className="resume-item">
-                                <h4>IT Support</h4>
-                                <h5>09/2022 - 10/2022</h5>
-                                <p><em>Dangote Refineries, Ibeju-Lekki, Lagos</em></p>
-                                <ul>
-                                    <li>Installed a new migration tool and harmonized email folders.</li>
-                                    <li>Multitasked among client’s PC to optimize time.</li>
-                                    <li>Interacted and communicated with clients to ease the task.</li>
-                                    <li>Supported 500+ clients on their PCs to migrate OST files to newly created M365 accounts.</li>
-                                </ul>
-                            </div>
-                            <div className="resume-item">
                                 <h4>Web Developer</h4>
                                 <h5>02/2023 - Date</h5>
                                 <p><em>Removals and Selfstorage Limited, United Kingdon</em></p>
@@ -89,6 +65,30 @@ export default function Resume() {
                                         user experience.</li>
                                     <li>Maintain website security and data privacy.</li>
                                     <li>Troubleshoot and debug website issues.</li>
+                                </ul>
+                            </div>
+                            <div className="resume-item">
+                                <h4>IT Support</h4>
+                                <h5>09/2022 - 10/2022</h5>
+                                <p><em>Dangote Refineries, Ibeju-Lekki, Lagos</em></p>
+                                <ul>
+                                    <li>Installed a new migration tool and harmonized email folders.</li>
+                                    <li>Multitasked among client’s PC to optimize time.</li>
+                                    <li>Interacted and communicated with clients to ease the task.</li>
+                                    <li>Supported 500+ clients on their PCs to migrate OST files to newly created M365 accounts.</li>
+                                </ul>
+                            </div>
+                            <div className="resume-item">
+                                <h4>Engineer Intern</h4>
+                                <h5>08/2019 - 12/2019</h5>
+                                <p><em>Joe-Akins Computers Technologies Limited, Surulere, Lagos </em></p>
+                                <ul>
+                                    <li>Researched and reviewed information in support of daily objectives</li>
+                                    <li>Analyzed system faults and worked with the technical staff to develop solutions. </li>
+                                    <li>Due to my hands-on support, the time of repair and installation of systems were optimized.</li>
+                                    <li>Assisted with repairs by applying strong analytical skills and studies.</li>
+                                    <li>Connected with the clients, communicating to the best of their understanding.</li>
+                                    <li>Communicated effectively with faculty and staff and accepted critiques and suggestions for areas of improvement.</li>
                                 </ul>
                             </div>
                         </div>

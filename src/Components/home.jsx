@@ -6,6 +6,7 @@ import Hero from "./hero";
 import Portfolio from "./portfolio";
 import Resume from "./resume";
 import Skills from "./skills";
+import Certificates from "./certificates";
 
 
 export default function Home() {
@@ -16,7 +17,8 @@ export default function Home() {
                 <About />
                 <Skills />
                 <Resume />
-                <Portfolio/>
+                <Portfolio />
+                <Certificates/>
                 <Contact/>
             </main>
         </>

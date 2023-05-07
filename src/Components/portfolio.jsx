@@ -26,7 +26,7 @@ export default function Portfolio() {
                     <div className="row" data-aos="fade-up">
                         <div className="col-lg-12 d-flex justify-content-center">
                             <ul id="portfolio-flters">
-                                <li data-filter="*" className="filter-active">All</li>
+                                {/* <li data-filter="*" className="filter-active">All</li> */}
                                
                             </ul>
                         </div>

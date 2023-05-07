@@ -106,8 +106,17 @@ export default function Header() {
                             }}
                         ><i className="bx bi-journal-text"></i> <span>Portfolio</span></a></li>
                         <li><a
-                            href="#contact"
+                            href="#certificates"
                             ref={el => (navbarlinks.current[4] = el)}
+                            className={activeLink === "#certificates" ? "active" : ""}
+                            onClick={() => {
+                                setActiveLink("#certificates");
+                                toggleClasses(document.querySelector('body'), document.querySelector('.mobile-nav-toggle'));
+                            }}
+                        ><i className="bx bi-journal-text"></i> <span>Certificates</span></a></li>
+                        <li><a
+                            href="#contact"
+                            ref={el => (navbarlinks.current[5] = el)}
                             className={activeLink === "#contact" ? "active" : ""}
                             onClick={() => {
                                 setActiveLink("#contact");
