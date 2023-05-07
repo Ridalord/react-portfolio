@@ -1,4 +1,6 @@
 import React from "react";
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+
 
 
 
@@ -36,8 +38,16 @@ export default function Contact() {
                                     <h4>Call:</h4>
                                     <p>+234 813 2246 772</p>
                                 </div>
-
-                                <iframe src="https://goo.gl/maps/JTwwkzKP9GNvTFcF8" border="0" style={{ width: '100%', border:'0', height: '290px', borderRadius: '5px' }} allowFullScreen title="location"></iframe>
+                                <LoadScript googleMapsApiKey="AIzaSyCyNfiJB1Wuewp4A4teb0N5rubFiXaYn0w">
+                                    <GoogleMap
+                                        id="map"
+                                        mapContainerStyle={{ height: '400px', width: '100%' }}
+                                        zoom={10}
+                                        center={{ lat: 6.494235, lng: 3.194110 }}
+                                    >
+                                        <Marker position={{ lat: 6.494235, lng: 3.194110 }} />
+                                    </GoogleMap>
+                                </LoadScript>
                             </div>
 
                         </div>

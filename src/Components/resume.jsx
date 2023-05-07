@@ -39,7 +39,7 @@ export default function Resume() {
                                 <h4>Electrical &amp; Electronics Engineering (B.Eng.)</h4>
                                 <h5>2015 - 2021</h5>
                                 <p><em>Federal University of Technology Minna, Niger State.</em></p>
-                                <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+                                <p>I earned my B.Eng in Electrical Electronics Engineering from the Federal University of Technology Minna. Throughout my academic journey, I demonstrated a strong commitment to learning.I gained practical experience by participating in various engineering projects, including designing and implementation of an LPG leakage and smoke detection alarm system with wide range of mobile notification and auto power supply cut-off. Additionally, I actively participated in extracurricular activities, honing my teamwork, communication, and leadership skills. I am now equipped with a solid theoretical foundation, hands-on experience, and the drive to apply my knowledge to make significant contributions in the field of engineering.</p>
                             </div>
                         </div>
                         <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -47,7 +47,7 @@ export default function Resume() {
                             <div className="resume-item">
                                 <h4>Engineer Intern</h4>
                                 <h5>08/2019 - 12/2019</h5>
-                                <p><em>Joe-Akins Computers technologies Limited, Surulere, Lagos </em></p>
+                                <p><em>Joe-Akins Computers Technologies Limited, Surulere, Lagos </em></p>
                                 <ul>
                                     <li>Researched and reviewed information in support of daily objectives</li>
                                     <li>Analyzed system faults and worked with the technical staff to develop solutions. </li>
@@ -66,6 +66,29 @@ export default function Resume() {
                                     <li>Multitasked among client’s PC to optimize time.</li>
                                     <li>Interacted and communicated with clients to ease the task.</li>
                                     <li>Supported 500+ clients on their PCs to migrate OST files to newly created M365 accounts.</li>
+                                </ul>
+                            </div>
+                            <div className="resume-item">
+                                <h4>Web Developer</h4>
+                                <h5>02/2023 - Date</h5>
+                                <p><em>Removals and Selfstorage Limited, United Kingdon</em></p>
+                                <ul>
+                                    <li>Collaborate with the design team to create a visually appealing
+                                        and user-friendly website design.</li>
+                                    <li>Develop website layout and functionality using HTML, CSS,
+                                        and JavaScript</li>
+                                    <li>Integrate Firebase into the website for real-time data storage and
+                                        management</li>
+                                    <li>Implement booking functionality that allows customers to select
+                                        a date and time for their move.</li>
+                                    <li>Develop an intuitive user interface for customers to select their
+                                        move details and receive a quote.</li>
+                                    <li>Develop an intuitive user interface for customers to select their
+                                        move details and receive a quote.</li>
+                                    <li>Continuously monitor and improve website performance and
+                                        user experience.</li>
+                                    <li>Maintain website security and data privacy.</li>
+                                    <li>Troubleshoot and debug website issues.</li>
                                 </ul>
                             </div>
                         </div>
