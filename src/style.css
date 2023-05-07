@@ -422,6 +422,10 @@ section {
 .two-layout{
   column-count: 2;
 }
+.skill img {
+  width: 30px;
+  height: 30px;
+}
 
 /*--------------------------------------------------------------
 # Resume
@@ -507,6 +511,9 @@ section {
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
+.portfolio-item :hover .frameworks {
+  opacity: 1;
+}
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
@@ -537,7 +544,23 @@ section {
   position: absolute;
   transition: all ease-in-out 0.3s;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+.frameworks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
+  opacity: 0;
+  /* margin: auto; */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -300%;
+}
+.frameworks img {
+  height: 40px;
 }
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
