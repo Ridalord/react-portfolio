@@ -41,7 +41,7 @@ export default function Contact() {
                                 <LoadScript googleMapsApiKey="AIzaSyCyNfiJB1Wuewp4A4teb0N5rubFiXaYn0w">
                                     <GoogleMap
                                         id="map"
-                                        mapContainerStyle={{ height: '400px', width: '100%' }}
+                                        mapContainerStyle={{ height: '250px', width: '100%' }}
                                         zoom={10}
                                         center={{ lat: 6.494235, lng: 3.194110 }}
                                     >

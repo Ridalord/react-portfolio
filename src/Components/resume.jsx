@@ -1,10 +1,17 @@
 import React from "react";
+import ResumeFile from '../img/RidwanUpdatedCv.pdf';
 
 
 
 
 
 export default function Resume() {
+    const downloadResume = () => {
+        const link = document.createElement('a');
+        link.href = ResumeFile;
+        link.download = 'Alabi-Ridwan-Resume.pdf'; 
+        link.click();
+    };
     return (
         <>
             <section id="resume" className="resume">
@@ -93,7 +100,7 @@ export default function Resume() {
                             </div>
                         </div>
                     </div>
-
+                    <div className="text-center"><button className="resume-button" type="submit" onClick={downloadResume}>Get Resume</button></div>
                 </div>
             </section>
         </>

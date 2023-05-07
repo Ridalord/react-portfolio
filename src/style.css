@@ -904,7 +904,7 @@ section {
   padding: 10px 15px;
   resize: none;
 }
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type=submit], .resume-button {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
