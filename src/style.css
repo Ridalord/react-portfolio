@@ -549,11 +549,9 @@ section {
 }
 .frameworks {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   column-gap: 20px;
   opacity: 0;
-  /* margin: auto; */
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
