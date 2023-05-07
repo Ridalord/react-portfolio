@@ -47,6 +47,13 @@ const skillData = [
         name: "Git CLI",
         width: "98",
         iconUrl: "https://i.ibb.co/wwV6x4m/git.png"
+    },
+    {
+        id: 8,
+        key: 8.1,
+        name: "FIREBASE",
+        width: "60",
+        iconUrl: "https://i.ibb.co/F4LtfnM/icons8-firebase-48.png"
     }
 ]
 
