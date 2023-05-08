@@ -113,7 +113,7 @@ export default function Header() {
                                 setActiveLink("#certificates");
                                 toggleClasses(document.querySelector('body'), document.querySelector('.mobile-nav-toggle'));
                             }}
-                        ><i className="bx bi-journal-text"></i> <span>Certificates</span></a></li>
+                        ><i className="bx bi-journal-text"></i> <span>Certifications</span></a></li>
                         <li><a
                             href="#contact"
                             ref={el => (navbarlinks.current[5] = el)}
