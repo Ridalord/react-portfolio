@@ -61,7 +61,7 @@ export default function Header() {
                     <h1 className="text-light"><a href="index.html">Ridwan Alabi</a></h1>
                     <div className="social-links mt-3 text-center">
                         <a href="https://github.com/Ridalord" title='Github' className="github"><i className="bi bi-github"></i></a>
-                        <a href="https://linkedin.com/in/ridwan-alabi-069317246/" title='Linkedin' className="linkedin"><i className="bi bi-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/ridwanoalabi/" title='Linkedin' className="linkedin"><i className="bi bi-linkedin"></i></a>
                         <a href="https://wa.link/cl0b01" title='Whatsapp' className="whatsapp"><i className="bi bi-whatsapp"></i></a>
                         <a href="mailto:ridhwan.alabi@gmail.com" title='Email' className="mail"><i className="bi bi-envelope"></i></a>
                     </div>
