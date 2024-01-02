@@ -6,7 +6,7 @@ import React from "react";
 export default function PortfolioCard(props) {
     return (
         <>
-            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div className="col-11 portfolio-item filter-web">
                 <div className="portfolio-wrap border-radius">
                     <img src={props.imgUrl} className="img-fluid" alt={props.name} />
                     <div className="portfolio-links">
