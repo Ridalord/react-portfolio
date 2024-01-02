@@ -1,5 +1,5 @@
 import React from "react";
-import ResumeFile from '../img/RidwanUpdatedCv.pdf';
+import ResumeFile from '../img/webdevresume.pdf';
 
 
 
@@ -52,8 +52,31 @@ export default function Resume() {
                         <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                             <h3 className="resume-title">Professional Experience</h3>
                             <div className="resume-item">
+                                <h4>Frontend Developer</h4>
+                                <h5>08/2023 - Date</h5>
+                                <p><em>Shoppleverse, Nigeria</em></p>
+                                <ul>
+                                    <li>Spearheaded the development and maintenance of Shoppleverse, a cuttingedge Web3 ecommerce startup.</li>
+                                    <li>Utilized React and Next.js to craft responsive, visually captivating, and userfriendly websites. Developed robust components to enhance the overall
+                                        user experience.</li>
+                                    <li>Collaborated closely with cross-functional teams, optimizing website
+                                        performance, user experience, and SEO to meet the evolving demands of
+                                        the ecommerce landscape.</li>
+                                    <li>Engineered and implemented a Firebase-based database for product
+                                        management, demonstrating proficiency in backend functionalities.</li>
+                                    <li>Contributed to the continuous improvement of the platform's frontend,
+                                        adapting to emerging technologies and industry best practices.</li>
+                                    {/* <li>Continuously monitor and improve website performance and user
+                                        experience.</li>
+                                    <li>Continuously monitor and improve website performance and
+                                        user experience.</li>
+                                    <li>Maintain website security and data privacy.</li>
+                                    <li>Troubleshoot and debug website issues.</li> */}
+                                </ul>
+                            </div>
+                            <div className="resume-item">
                                 <h4>Web Developer</h4>
-                                <h5>02/2023 - Date</h5>
+                                <h5>02/2023 - 07/2023</h5>
                                 <p><em>Removals and Selfstorage Limited, United Kingdon</em></p>
                                 <ul>
                                     <li>Collaborate with the design team to create a visually appealing
