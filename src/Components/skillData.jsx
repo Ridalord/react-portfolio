@@ -54,6 +54,27 @@ const skillData = [
         name: "FIREBASE",
         width: "60",
         iconUrl: "https://i.ibb.co/F4LtfnM/icons8-firebase-48.png"
+    },
+    {
+        id: 9,
+        key: 9.1,
+        name: "Tailwind",
+        width: "60",
+        iconUrl: "https://i.ibb.co/Zg5CmLY/tailwind-css-256x154.png"
+    },
+    {
+        id: 10,
+        key: 10.1,
+        name: "NextJs",
+        width: "60",
+        iconUrl: "https://i.ibb.co/h1dgF15/next-js-256x256.png"
+    },
+    {
+        id: 11,
+        key: 11.1,
+        name: "Typescript",
+        width: "60",
+        iconUrl: "https://i.ibb.co/xXgTVNp/typescript-icon-256x256.png"
     }
 ]
 
