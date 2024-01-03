@@ -24,14 +24,14 @@ const portfolioData = [
         id: 60,
         name: "YHWH Tech",
         imgUrl: "https://i.ibb.co/C2SJtp6/yhwh.png",
-        link: "https://niyexdroid.github.io/ainaabosedefoundation",
+        link: "https://ridalord.github.io/yhw-tech/",
         frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/bvQh49M/javascript.png", "https://i.ibb.co/xh06M9t/bootstrap.png"]
     },
     {
         id: 1,
         name: "Abosede Aina Charity Foundation",
         imgUrl: "https://i.ibb.co/7jSGnwC/aaf.png",
-        link: "https://niyexdroid.github.io/ainaabosedefoundation",
+        link: "https://www.aac-foundation.org/",
         frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/bvQh49M/javascript.png", "https://i.ibb.co/xh06M9t/bootstrap.png"]
     },
     {
