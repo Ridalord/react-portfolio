@@ -1,4 +1,5 @@
 import React from "react";
+import classes from "./folioCard.module.css"
 // import { Link } from "react-router-dom"
 
 
@@ -7,8 +8,8 @@ export default function PortfolioCard(props) {
     return (
         <>
             <div className="col-11 portfolio-item filter-web">
-                <div className="portfolio-wrap border-radius">
-                    <img src={props.imgUrl} className="img-fluid" alt={props.name} />
+                <div className={`portfolio-wrap border-radius ${classes.portfolioWrap}`}  style={{backgroundImage: `url(${props.imgUrl})`}}>
+                    {/* <img src={props.imgUrl} className="img-fluid" alt={props.name} /> */}
                     <div className="portfolio-links">
                         <div className="frameworks">
                             {props.frameworks.map((framework, index) => (

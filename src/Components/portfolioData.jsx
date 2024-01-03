@@ -1,17 +1,31 @@
 const portfolioData = [
     {
+        id: 71,
+        name: "Eesha Designz",
+        imgUrl: "https://i.ibb.co/N7Xk6Tx/eesha.png",
+        link: "https://eesha-designz.web.app/index.html",
+        frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/3d3ft1Z/react.png", "https://i.ibb.co/xh06M9t/bootstrap.png"]
+    },
+    {
         id: 70,
         name: "Get Linked",
         imgUrl: "https://i.ibb.co/P1KNtPG/getlinked.jpg",
         link: "https://ridalord.github.io/get-linked/",
-        frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/3d3ft1Z/react.png"]
+        frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/3d3ft1Z/react.png", "https://i.ibb.co/xh06M9t/bootstrap.png"]
     },
     {
         id: 0,
         name: "Airomis Services Limited",
         imgUrl: "https://i.ibb.co/QY2Y1vn/airomisservices.jpg",
         link: "www.airomis-services.com",
-        frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/bvQh49M/javascript.png", "https://i.ibb.co/Zg5CmLY/tailwind-css-256x154.png"]
+        frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/bvQh49M/javascript.png", "https://i.ibb.co/Zg5CmLY/tailwind-css-256x154.png", "https://i.ibb.co/xh06M9t/bootstrap.png"]
+    },
+    {
+        id: 60,
+        name: "YHWH Tech",
+        imgUrl: "https://i.ibb.co/C2SJtp6/yhwh.png",
+        link: "https://niyexdroid.github.io/ainaabosedefoundation",
+        frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/bvQh49M/javascript.png", "https://i.ibb.co/xh06M9t/bootstrap.png"]
     },
     {
         id: 1,
