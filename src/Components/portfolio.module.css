@@ -22,15 +22,3 @@
   cursor: not-allowed;
 }
 
-@media (max-width: 760px) {
-
-  .slickNext,
-  .slickPrev {
-    top: -87px;
-    right: 10px;
-  }
-
-  .slickPrev {
-    right: 59px;
-  }
-}
