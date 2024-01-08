@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.cecb1240.css",
-    "main.js": "/react-portfolio/static/js/main.2dab449c.js",
+    "main.js": "/react-portfolio/static/js/main.d2b59bcc.js",
     "static/media/bootstrap-icons.woff?": "/react-portfolio/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
     "static/media/bootstrap-icons.woff2?": "/react-portfolio/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
     "static/media/webdevresume.pdf": "/react-portfolio/static/media/webdevresume.85ff2fced13597f001ec.pdf",
@@ -11,10 +11,10 @@
     "static/media/slick.woff": "/react-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-portfolio/index.html",
     "main.cecb1240.css.map": "/react-portfolio/static/css/main.cecb1240.css.map",
-    "main.2dab449c.js.map": "/react-portfolio/static/js/main.2dab449c.js.map"
+    "main.d2b59bcc.js.map": "/react-portfolio/static/js/main.d2b59bcc.js.map"
   },
   "entrypoints": [
     "static/css/main.cecb1240.css",
-    "static/js/main.2dab449c.js"
+    "static/js/main.d2b59bcc.js"
   ]
 }
