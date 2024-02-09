@@ -56,22 +56,39 @@ export default function Resume() {
                                 <h5>08/2023 - Date</h5>
                                 <p><em>Shoppleverse, Nigeria</em></p>
                                 <ul>
-                                    <li>Spearheaded the development and maintenance of Shoppleverse, a cuttingedge Web3 ecommerce startup.</li>
-                                    <li>Utilized React and Next.js to craft responsive, visually captivating, and userfriendly websites. Developed robust components to enhance the overall
-                                        user experience.</li>
-                                    <li>Collaborated closely with cross-functional teams, optimizing website
-                                        performance, user experience, and SEO to meet the evolving demands of
-                                        the ecommerce landscape.</li>
-                                    <li>Engineered and implemented a Firebase-based database for product
-                                        management, demonstrating proficiency in backend functionalities.</li>
-                                    <li>Contributed to the continuous improvement of the platform's frontend,
-                                        adapting to emerging technologies and industry best practices.</li>
-                                    {/* <li>Continuously monitor and improve website performance and user
-                                        experience.</li>
-                                    <li>Continuously monitor and improve website performance and
-                                        user experience.</li>
-                                    <li>Maintain website security and data privacy.</li>
-                                    <li>Troubleshoot and debug website issues.</li> */}
+                                    <li>
+                                        Spearheaded the development and maintenance of Shoppleverse, a cutting-edge Web3 ecommerce startup.
+                                    </li>
+                                    <li>
+                                        Utilized React and Next.js to craft responsive, visually captivating, and user-friendly websites. Developed robust components to enhance the overall user experience.
+                                    </li>
+                                    <li>
+                                        Collaborated closely with cross-functional teams, optimizing website performance, user experience, and SEO to meet the evolving demands of the ecommerce landscape.
+                                    </li>
+                                    <li>
+                                        Optimized applications for maximum speed.
+                                    </li>
+                                    <li>
+                                        Collaborated with back-end developers and web designers to improve usability.
+                                    </li>
+                                    <li>
+                                        Wrote functional requirement documents and guides.
+                                    </li>
+                                    <li>
+                                        Created quality mockups and prototypes.
+                                    </li>
+                                    <li>
+                                        Helped back-end developers with coding and troubleshooting.
+                                    </li>
+                                    <li>
+                                        Ensured high-quality graphic standards and brand consistency.
+                                    </li>
+                                    <li>
+                                        Engineered and implemented a Firebase-based database for product management, demonstrating proficiency in backend functionalities.
+                                    </li>
+                                    <li>
+                                        Contributed to the continuous improvement of the platform's frontend, adapting to emerging technologies and industry best practices.
+                                    </li>
                                 </ul>
                             </div>
                             <div className="resume-item">
@@ -79,25 +96,86 @@ export default function Resume() {
                                 <h5>02/2023 - 07/2023</h5>
                                 <p><em>Removals and Selfstorage Limited, United Kingdon</em></p>
                                 <ul>
-                                    <li>Collaborate with the design team to create a visually appealing
-                                        and user-friendly website design.</li>
-                                    <li>Develop website layout and functionality using HTML, CSS,
-                                        and JavaScript</li>
-                                    <li>Integrate Firebase into the website for real-time data storage and
-                                        management</li>
-                                    <li>Implement booking functionality that allows customers to select
-                                        a date and time for their move.</li>
-                                    <li>Develop an intuitive user interface for customers to select their
-                                        move details and receive a quote.</li>
-                                    <li>Develop an intuitive user interface for customers to select their
-                                        move details and receive a quote.</li>
-                                    <li>Continuously monitor and improve website performance and
-                                        user experience.</li>
-                                    <li>Maintain website security and data privacy.</li>
-                                    <li>Troubleshoot and debug website issues.</li>
+                                    <li>
+                                        Collaborated with the design team to create a visually appealing and user-friendly website design.
+                                    </li>
+                                    <li>
+                                        Developed website layout and functionality using HTML, CSS, and JavaScript.
+                                    </li>
+                                    <li>
+                                        Integrated Firebase into the website for real-time data storage and management.
+                                    </li>
+                                    <li>
+                                        Built web applications with web development best practices.
+                                    </li>
+                                    <li>
+                                        Transformed app designs into front-end code with HTML, CSS, and JavaScript.
+                                    </li>
+                                    <li>
+                                        Worked with back-end developers to integrate UI components with APIs and databases.
+                                    </li>
+                                    <li>
+                                        Gathered and refined specifications and requirements based on technical requirements or UX design.
+                                    </li>
+                                    <li>
+                                        Debugged errors, troubleshooted issues, and performed routine performance optimizations.
+                                    </li>
+                                    <li>
+                                        Wrote high-quality, scalable, and reusable code.
+                                    </li>
+                                    <li>
+                                        Stayed plugged into emerging technologies and industry trends.
+                                    </li>
+                                    <li>
+                                        Implemented booking functionality that allows customers to select a date and time for their move.
+                                    </li>
+                                    <li>
+                                        Developed an intuitive user interface for customers to select their move details and receive a quote.
+                                    </li>
+                                    <li>
+                                        Continuously monitored and improved website performance and user experience.
+                                    </li>
+                                    <li>
+                                        Maintained website security and data privacy.
+                                    </li>
+                                    <li>
+                                        Troubleshooted and debugged website issues.
+                                    </li>
                                 </ul>
                             </div>
                             <div className="resume-item">
+                                <h4>Junior Frontend Developer</h4>
+                                <h5>11/2021-02/2023</h5>
+                                <p><em>Outsource Global Tech Nig. Ltd.</em></p>
+                                <ul>
+                                    <li>
+                                        Installed and configured both software and hardware components, ensuring optimal performance for development tasks.
+                                    </li>
+                                    <li>
+                                        Collaborated effectively with fellow developers, participating in team projects to achieve shared goals and deadlines.
+                                    </li>
+                                    <li>
+                                        Completed assigned tasks with precision and diligence, contributing to the overall success of the development team.
+                                    </li>
+                                    <li>
+                                        Regularly attended stand-up meetings to discuss progress, challenges, and strategize with the team for improved workflow.
+                                    </li>
+                                    <li>
+                                        Demonstrated proficiency in a diverse technology stack, including:
+                                        <ul>
+                                            <li>HTML, CSS, JavaScript for front-end development.</li>
+                                            <li>React for building responsive and interactive user interfaces.</li>
+                                            <li>WordPress for content management system (CMS) tasks.</li>
+                                            <li>Express.js and Node.js for back-end development.</li>
+                                            <li>Programming language for specific development needs.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Successfully obtained a Certificate of Completion, recognizing my commitment and accomplishments in fulfilling assigned tasks.
+                                    </li>
+                                </ul>
+                            </div>
+                            {/* <div className="resume-item">
                                 <h4>IT Support</h4>
                                 <h5>09/2022 - 10/2022</h5>
                                 <p><em>Dangote Refineries, Ibeju-Lekki, Lagos</em></p>
@@ -120,7 +198,7 @@ export default function Resume() {
                                     <li>Connected with the clients, communicating to the best of their understanding.</li>
                                     <li>Communicated effectively with faculty and staff and accepted critiques and suggestions for areas of improvement.</li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="text-center"><button className="resume-button" type="submit" onClick={downloadResume}>Get Resume</button></div>
