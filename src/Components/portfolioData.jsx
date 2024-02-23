@@ -35,13 +35,6 @@ const portfolioData = [
         frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/bvQh49M/javascript.png", "https://i.ibb.co/xh06M9t/bootstrap.png"]
     },
     {
-        id: 2,
-        name: "The 360 Lifestyle",
-        imgUrl: "https://i.ibb.co/n6ZFY9s/lifestyle.png",
-        link: "https://ridalord.github.io/the_360_lifestyle",
-        frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/bvQh49M/javascript.png"]
-    },
-    {
         id: 3,
         name: "Rolley Dicey",
         imgUrl: "https://i.ibb.co/2ZQgcSP/dicey.png",
@@ -63,6 +56,13 @@ const portfolioData = [
         frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/xh06M9t/bootstrap.png", "https://i.ibb.co/3d3ft1Z/react.png"]
     },
     {
+        id: 25,
+        name: "Lexarsmart",
+        imgUrl: "https://i.ibb.co/7RBndnh/Lexar-Home.png",
+        link: "https://ridalord.github.io/lexarsmart/",
+        frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/xh06M9t/bootstrap.png", "https://i.ibb.co/3d3ft1Z/react.png"]
+    },
+    {
         id: 5,
         name: "Crowdfund",
         imgUrl: "https://i.ibb.co/xFdgcLC/crowdfund.png",
@@ -75,7 +75,14 @@ const portfolioData = [
         imgUrl: "https://i.ibb.co/550P5Vx/nft.png",
         link: "https://ridalord.github.io/nFtsite",
         frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png"]
-    }
+    },
+    {
+        id: 2,
+        name: "The 360 Lifestyle",
+        imgUrl: "https://i.ibb.co/n6ZFY9s/lifestyle.png",
+        link: "https://ridalord.github.io/the_360_lifestyle",
+        frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/bvQh49M/javascript.png"]
+    },
 ]
 
 export default portfolioData;
