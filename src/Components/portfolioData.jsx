@@ -57,6 +57,13 @@ const portfolioData = [
     },
     {
         id: 5,
+        name: "Cheesecake",
+        imgUrl: "https://i.ibb.co/j8x0DsQ/cheese-Home.png",
+        link: "https://ridalord.github.io/cheesecake/",
+        frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/xh06M9t/bootstrap.png", "https://i.ibb.co/3d3ft1Z/react.png"]
+    },
+    {
+        id: 5,
         name: "Crowdfund",
         imgUrl: "https://i.ibb.co/xFdgcLC/crowdfund.png",
         link: "https://ridalord.github.io/web-dev-test",

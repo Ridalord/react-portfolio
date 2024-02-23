@@ -41,12 +41,13 @@ export default function Portfolio() {
     
     const settings = {
         dots: false,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 3, // Default value
         slidesToScroll: 1,
         prevArrow: <CustomPrevArrow />,
         nextArrow: <CustomNextArrow />,
+        autoplay: true,
         responsive: [
             {
                 breakpoint: 768, // Breakpoint for mobile view
