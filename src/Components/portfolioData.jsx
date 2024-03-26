@@ -17,8 +17,15 @@ const portfolioData = [
         id: 0,
         name: "Airomis Services Limited",
         imgUrl: "https://i.ibb.co/QY2Y1vn/airomisservices.jpg",
-        link: "www.airomis-services.com",
+        link: "https://airomis-services.com/",
         frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/bvQh49M/javascript.png", "https://i.ibb.co/Zg5CmLY/tailwind-css-256x154.png", "https://i.ibb.co/xh06M9t/bootstrap.png", "https://i.ibb.co/F4LtfnM/icons8-firebase-48.png"]
+    },
+    {
+        id: 35,
+        name: "Halord Stores",
+        imgUrl: "https://i.ibb.co/rHmxgTs/harlordstore.png",
+        link: "https://ridalord.github.io/shoppingCart",
+        frameworks: ["https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/xh06M9t/bootstrap.png", "https://i.ibb.co/3d3ft1Z/react.png", "https://i.ibb.co/xXgTVNp/typescript-icon-256x256.png",]
     },
     {
         id: 60,
