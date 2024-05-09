@@ -7,6 +7,13 @@ const portfolioData = [
         frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/3d3ft1Z/react.png", "https://i.ibb.co/xh06M9t/bootstrap.png", "https://i.ibb.co/F4LtfnM/icons8-firebase-48.png"]
     },
     {
+        id: 89,
+        name: "Fajaar Watch",
+        imgUrl: "https://i.ibb.co/ZTMS10T/fajaar.png",
+        link: "https://ridalord.github.io/fajaarWatchApp",
+        frameworks: ["https://i.ibb.co/3d3ft1Z/react.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/xh06M9t/bootstrap.png", "https://i.ibb.co/F4LtfnM/icons8-firebase-48.png"]
+    },
+    {
         id: 70,
         name: "Get Linked",
         imgUrl: "https://i.ibb.co/P1KNtPG/getlinked.jpg",
@@ -53,7 +60,7 @@ const portfolioData = [
         name: "React Portfolio",
         imgUrl: "https://i.ibb.co/XYrjj0f/reactfolio.png",
         link: "https://ridalord.github.io/myBusinessId/",
-        frameworks: ["https://i.ibb.co/ZGSVqWV/html.png", "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/3d3ft1Z/react.png"]
+        frameworks: [ "https://i.ibb.co/NFnjCkb/css.png", "https://i.ibb.co/3d3ft1Z/react.png"]
     },
     {
         id: 5,
